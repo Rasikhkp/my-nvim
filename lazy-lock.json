@@ -1,5 +1,6 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
+  "alpha-nvim": { "branch": "main", "commit": "fdb675257c7317fd068fe3224465781ad335751d" },
   "blink.cmp": { "branch": "main", "commit": "456d38d1cd3743926f329204c2340f3e7840aad6" },
   "blink.download": { "branch": "main", "commit": "a459c8fbf51359902971874b5ebe05f6602db8b4" },
   "blink.pairs": { "branch": "main", "commit": "4e43012356d33a26f69eae475f746fbe9f325f44" },
