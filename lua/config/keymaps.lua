@@ -46,15 +46,15 @@ map("v", ">", ">gv", { desc = "Indent right" })
 map("n", "<leader><leader>w", ":set wrap!<CR>", { desc = "Toggle text wrap" })
 
 -- Buffer
-map("n", "<leader>bd", function()
-	local bufnr = vim.api.nvim_get_current_buf()
-	vim.cmd("bnext")
-	vim.cmd("bdelete " .. bufnr)
-end, { desc = "Delete buffer (keep window)" })
-
-map("n", "<leader>ba", function()
-	vim.cmd("%bd|e#|bd#")
-end, { desc = "Delete all buffers except current" })
+-- map("n", "<leader>bd", function()
+-- 	local bufnr = vim.api.nvim_get_current_buf()
+-- 	vim.cmd("bnext")
+-- 	vim.cmd("bdelete " .. bufnr)
+-- end, { desc = "Delete buffer (keep window)" })
+--
+-- map("n", "<leader>ba", function()
+-- 	vim.cmd("%bd|e#|bd#")
+-- end, { desc = "Delete all buffers except current" })
 
 -- ======================
 -- Telescope

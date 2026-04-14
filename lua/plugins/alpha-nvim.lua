@@ -7,27 +7,27 @@ return {
 		local dashboard = require("alpha.themes.dashboard")
 
 		dashboard.section.header.val = {
-			" ",
-			"  _   _             _   _ _ ",
-			" | \\ | | ___  _____   _(_)_ __ ___ ",
-			" |  \\| |/ _ \\/ _ \\ \\ / / | '_ ` _ \\ ",
-			" | |\\  |  __/ (_) \\ V /| | | | | | |",
-			" |_| \\_|\\___|\\___/ \\_/ |_|_| |_| |_|",
-			" ",
-			"              I just want coffee ☕️.",
-			" ",
+			"                                           ",
+			"  _   _             _   _ _                ",
+			" | \\ | | ___  _____   _(_)_ __ ___        ",
+			" |  \\| |/ _ \\/ _ \\ \\ / / | '_ ` _ \\   ",
+			" | |\\  |  __/ (_) \\ V /| | | | | | |     ",
+			" |_| \\_|\\___|\\___/ \\_/ |_|_| |_| |_|   ",
+			"                                           ",
+			"                   I just want coffee ☕️.  ",
+			"                                           ",
 		}
 
 		-- ======================
 		-- BUTTONS
 		-- ======================
 		dashboard.section.buttons.val = {
-			dashboard.button("f", "🔭  Find file", ":Telescope find_files<CR>"),
-			dashboard.button("e", "📄  New file", ":ene<CR>"),
-			dashboard.button("r", "📑  Recent files", ":Telescope oldfiles<CR>"),
-			dashboard.button("g", "🔎  Find text", ":Telescope live_grep<CR>"),
-			dashboard.button("c", "⚙️  Config", ":e ~/.config/nvim/init.lua<CR>"),
-			dashboard.button("q", "⛔️  Quit", ":qa<CR>"),
+			dashboard.button("f", "  Find file", ":Telescope find_files<CR>"),
+			dashboard.button("e", "  New file", ":ene<CR>"),
+			dashboard.button("r", "  Recent files", ":Telescope oldfiles<CR>"),
+			dashboard.button("g", "  Find text", ":Telescope live_grep<CR>"),
+			dashboard.button("c", "  Config", ":e ~/.config/nvim/init.lua<CR>"),
+			dashboard.button("q", "  Quit", ":qa<CR>"),
 		}
 
 		-- ======================
